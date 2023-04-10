@@ -1,0 +1,37 @@
+button {
+    border: none;
+}
+
+.article-box {
+    display: flex;
+    height: 200px;
+    width: 100%;
+}
+
+.feature-image, img {
+    align-self: center;
+    height: 180px;
+    width: 180px;
+    /* background-color: aqua; */
+}
+.article-content {
+    overflow: hidden;
+    align-self: center;
+}
+.article-box div {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.jsgrid-row:hover {
+    background-color: rgb(229, 235, 223);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.fa-trash, .fa-pen {
+    color: black;
+}
